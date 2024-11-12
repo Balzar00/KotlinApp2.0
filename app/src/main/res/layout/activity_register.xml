@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gym"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTRAZIONE"
+        android:textSize="50sp"
+        android:textColor="@color/violetto"
+        android:textStyle="bold"
+        android:layout_marginBottom="50dp"/>
+
+    <EditText
+        style="@style/Widget.MaterialComponents.Button"
+        android:id="@+id/email"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:autofillHints="emailAddress"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email"
+        android:textColorHint="@color/violetto"/>
+
+    <EditText
+        style="@style/Widget.MaterialComponents.Button"
+        android:id="@+id/password"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:autofillHints="password"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:textColorHint="@color/violetto"/>
+
+    <Button
+        style="@style/Widget.MaterialComponents.Button"
+        android:id="@+id/continueBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registrati"
+        android:backgroundTint="@color/grey"
+        android:textSize="20sp"
+        android:textColor="@color/violetto"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id="@+id/move"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hai già un account? Accedi"
+        android:textColor="@color/violetto"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>

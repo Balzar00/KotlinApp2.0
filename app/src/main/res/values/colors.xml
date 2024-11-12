@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#007BFF</color>
+    <color name="clearBlue">#03A9F4</color>
+    <color name="azzurro">#03a9f4</color>
+    <color name="blu">#0000FF</color>
+    <color name="grigio">#808080</color>
+    <color name="rosso">#FF0000</color>
+    <color name="ff0000">#FF0000</color>
+    <color name="grey">#212f3d</color>
+    <color name="violetto">#6c3483</color>
+
+
+
+</resources>

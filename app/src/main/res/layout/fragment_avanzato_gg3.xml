@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AvanzatoGg3">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+                android:id="@+id/progr3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="@string/prog3"
+                android:textColor="@color/rosso"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/condividi"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/white"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/baseline_share_24" />
+
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+                android:id="@+id/risc"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="@string/Riscaldamento"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/recup1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/rec1"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+                android:id="@+id/latMacAvtx"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="@string/latMacAv"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/recup2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/rec7"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+                android:id="@+id/rowingtx"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="@string/rowing"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/recup3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/rec3"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+                android:id="@+id/pulleytx"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="@string/pulley"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/recup4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/rec6"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+                android:id="@+id/rematoretx"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="@string/rematore"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/rec7"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+                android:id="@+id/bicBtx"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="@string/bicB"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/rec3"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+                android:id="@+id/bicCbtx"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="@string/bicCb"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/rec3"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+                android:id="@+id/diptx"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="@string/dip"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/recup5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/rec4"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+                android:id="@+id/trictx"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="@string/tric"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/rec3"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+                android:id="@+id/russTwtx"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="@string/russTw"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/rec4"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>

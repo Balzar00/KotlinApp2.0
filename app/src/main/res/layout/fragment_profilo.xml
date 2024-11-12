@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Profilo"
+    android:background="@color/black">
+
+    <!-- Immagine del profilo inserita fuori dalla CardView -->
+    <ImageButton
+        android:id="@+id/profileImage"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/circle_border"
+        android:clickable="true"
+        android:enabled="true"
+        android:focusable="true"
+        android:src="@drawable/ic_profile" />
+
+    <!-- CardView  -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/grey"
+        android:layout_centerInParent="true"
+        android:padding="16dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/profileName"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/fontvariables"
+                android:hint="Nome"
+                android:textColor="@color/violetto"
+                android:textColorHint="@color/violetto"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/profileSurname"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/fontvariables"
+                android:hint="Cognome"
+                android:textColor="@color/violetto"
+                android:textColorHint="@color/violetto"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/profileHeight"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="Altezza (cm)"
+                android:textAlignment="center"
+                android:inputType="number"
+                android:textColor="@color/violetto"
+                android:textColorHint="@color/violetto"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:id="@+id/profileWeight"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/fontvariables"
+                android:hint="Peso (kg)"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:textColor="@color/violetto"
+                android:textColorHint="@color/violetto"
+                android:textSize="25sp" />
+
+
+            <Button
+                android:id="@+id/editProfileButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+                android:backgroundTint="@color/black"
+                android:fontFamily="@font/fontvariables"
+                android:text="Modifica"
+                android:textColor="@color/violetto"
+                android:textSize="25sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

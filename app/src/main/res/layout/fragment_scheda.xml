@@ -1,0 +1,60 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Scheda"
+    android:background="@drawable/palestra">
+
+    <TextView
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/scegli_il_tipo_di_programma"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="@color/violetto"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"/>
+
+    <Button
+        style="@style/Widget.MaterialComponents.Button"
+        android:id="@+id/btn_principiante"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/grey"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/violetto"
+        android:text="@string/Principiante"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginBottom="110dp"/>
+
+    <Button
+        style="@style/Widget.MaterialComponents.Button"
+        android:id="@+id/btn_medio"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/grey"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/Medio"
+        android:textColor="@color/violetto"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginBottom="110dp"/>
+
+    <Button
+        style="@style/Widget.MaterialComponents.Button"
+        android:id="@+id/btn_avanzato"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/grey"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/avanzato"
+        android:textColor="@color/violetto"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginBottom="110dp"/>
+</FrameLayout>

@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">FitnessApp</string>
+    <string name="clicca_per_andare_avanti">Clicca per andare avanti</string>
+    <string name="benevenuto_in_fitness_app">Benevenuto in Fitness App</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="non_sei_registrato_registrati">Non sei registrato? Registrati</string>
+    <string name="accedi">Accedi</string>
+    <string name="registrati">Registrati</string>
+    <string name="scheda">Scheda</string>
+    <string name="diario">Diario</string>
+    <string name="bentornato">Bentornato</string>
+    <string name="inserP">Inserisci il peso:</string>
+    <string name="conf">Conferma</string>
+
+    <!-- Stringhe per le schede -->
+    <string name="avanzato">Avanzato</string>
+    <string name="Principiante">Principiante</string>
+    <string name="Medio">Medio</string>
+    <string name="giorno1">Giorno 1</string>
+    <string name="giorno2">Giorno 2</string>
+    <string name="giorno3">Giorno 3</string>
+    <string name="rec1">5\'</string>
+    <string name="rec2">3x10 1\' rec</string>
+    <string name="rec3">4x10 1\' rec</string>
+    <string name="rec4">3x20 1\' rec</string>
+    <string name="rec5">3x15 1\' rec</string>
+    <string name="rec6">3x12 1\' rec</string>
+    <string name="rec7">4x10 2\' rec</string>
+    <string name="Riscaldamento">Riscaldamento</string>
+    <string name="prog1">Programma 1</string>
+    <string name="prog2">Programma 2</string>
+    <string name="prog3">Programma 3</string>
+    <string name="staccoSum">Stacco sumo</string>
+    <string name="squat">Squat</string>
+    <string name="staccoGTese">Stacco G. tese manubri</string>
+    <string name="legpress">Leg press</string>
+    <string name="legExt">Leg extension</string>
+    <string name="legCurl">Leg curl</string>
+    <string name="affondi">Affondi</string>
+    <string name="calf">Calf</string>
+    <string name="panca">Panca piana</string>
+    <string name="spinte30">Spinte 30°</string>
+    <string name="latMacAv">Lat Machine Avanti</string>
+    <string name="pulley">Pulley</string>
+    <string name="rowing">Low rowing mac.</string>
+    <string name="rematore">Rematore t bar</string>
+    <string name="frPress">French press bil.</string>
+    <string name="tric">Tricipiti ai cavi</string>
+    <string name="dip">Dip</string>
+    <string name="croci">Panca 30° croci</string>
+    <string name="chestP">Chest press</string>
+    <string name="bicB">Bicipiti bilaciere</string>
+    <string name="bicCb">Bicipiti curl manubri</string>
+    <string name="shoulderPress">Shoulder Press</string>
+    <string name="alzateLat">Alzate Laterali</string>
+    <string name="alzateSin">Alzate singole inclinate</string>
+    <string name="alzateLatCavo">Alzate laterali ai cavi</string>
+    <string name="crunch">Crunch</string>
+    <string name="crunchInv">Crunch inverso</string>
+    <string name="sitUps">Sit ups</string>
+    <string name="russTw">Russian Twist</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="Scheda">Scheda</string>
+    <string name="profilo">Profilo</string>
+    <string name="logout">Logout</string>
+    <string name="scegli_il_tipo_di_programma">Scegli il tipo di programma:</string>
+    <string name="peso"> Peso</string>
+    <string name="immagine_del_profilo">Immagine del profilo</string>
+    <string name="condiv">condiv</string>
+
+
+</resources>

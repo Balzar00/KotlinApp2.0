@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".EditProfileActivity"
+    android:background="@color/black">
+
+    <!-- CardView che racchiude i campi di input -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:backgroundTint="@color/grey"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Campo di input Nome -->
+            <EditText
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:id="@+id/firstNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Nome"
+                android:textColorHint="@color/violetto"
+                android:fontFamily="@font/fontvariables"
+                android:textSize="25sp" />
+
+            <!-- Campo di input Cognome -->
+            <EditText
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:id="@+id/lastNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Cognome"
+                android:textColorHint="@color/violetto"
+                android:fontFamily="@font/fontvariables"
+                android:textSize="25sp" />
+
+            <!-- Campo di input Altezza -->
+            <EditText
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:id="@+id/heightEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Altezza (cm)"
+                android:inputType="number"
+                android:textColorHint="@color/violetto"
+                android:textSize="25sp" />
+
+            <!-- Campo di input Peso -->
+            <EditText
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:id="@+id/weightEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Peso (kg)"
+                android:inputType="number"
+                android:fontFamily="@font/fontvariables"
+                android:textColorHint="@color/violetto"
+                android:textSize="25sp" />
+            <!-- Pulsante Salva -->
+            <Button
+                android:id="@+id/saveProfileButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/fontvariables"
+                android:layout_marginTop="20dp"
+                android:text="Salva"
+                android:textColor="@color/violetto"
+                android:textSize="25sp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>
+
