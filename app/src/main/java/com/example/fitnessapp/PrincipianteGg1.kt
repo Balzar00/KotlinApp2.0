@@ -10,7 +10,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageButton
 import android.widget.TextView
-import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 
 class PrincipianteGg1 : Fragment() {
@@ -19,7 +18,7 @@ class PrincipianteGg1 : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        // Inflate the layout for this fragment
+        // Espandi il layout per questo frammento
         val view =inflater.inflate(R.layout.fragment_principiante_gg1, container, false)
 
         val btncondividi = view.findViewById<ImageButton>(R.id.condividi)

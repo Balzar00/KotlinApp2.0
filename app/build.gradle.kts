@@ -50,17 +50,20 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
-    implementation(libs.firebase.common.ktx)
-    implementation(libs.firebase.firestore.ktx)
     implementation(libs.androidx.ui.graphics.android)
+    implementation(libs.firebase.auth.ktx)
+    implementation(libs.google.firebase.firestore.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
+
+    // Firebase BOM (gestisce le versioni di tutte le librerie Firebase)
     implementation(platform(libs.firebase.bom.v3312))
-    implementation(libs.firebase.auth)
+    implementation (libs.firebase.firestore)
+
+    // Altre dipendenze
     implementation(libs.mpandroidchart)
 
-    implementation ("com.github.bumptech.glide:glide:4.12.0")
-    annotationProcessor ("com.github.bumptech.glide:compiler:4.12.0")
-
-
+    // Glide per il caricamento delle immagini
+    implementation(libs.github.glide)
+    annotationProcessor(libs.compiler)
 }

@@ -27,7 +27,7 @@ class RegisterActivity : AppCompatActivity() {
                 .toString().trim())
                 .addOnCompleteListener(this) { task ->
                     if (task.isSuccessful) {
-                        // Sign in success, update UI with the signed-in user's information
+                        // La registrazione ha successo e aggiorna l'UI con le info dell'utente corrente
                         Log.d(ContentValues.TAG, "createUserWithEmail:success")
                         Toast.makeText(
                             baseContext,
@@ -37,7 +37,7 @@ class RegisterActivity : AppCompatActivity() {
                         val intent = Intent(this, MainActivity::class.java)
                         startActivity(intent)
                     } else {
-                        // If sign in fails, display a message to the user.
+                        // Se la registrazione fallisce verrà mostrato un messaggio di errore
                         Log.w(ContentValues.TAG, "createUserWithEmail:failure", task.exception)
                         Toast.makeText(
                             baseContext,
